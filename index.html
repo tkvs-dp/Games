@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的遊戲收藏 · Save Point</title>
+  <meta name="description" content="五款值得一再回去的遊戲。收藏遊戲世界、玩法與心情，還有一場可以直接玩的橫向卷軸冒險。">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css"><script defer src="app.js"></script><script defer src="platformer.js"></script>
+</head>
+<body>
+<a class="skip" href="#collection">跳到遊戲收藏</a>
+<div class="site">
+  <header class="masthead"><a class="brand" href="#" aria-label="Save Point 首頁"><span class="brand-icon">✚</span><span>SAVE POINT<small>我的遊戲收藏</small></span></a><p class="masthead-note">把喜歡的世界，留一個存檔。</p><span class="power"><i></i> PLAYER 1</span></header>
+  <nav aria-label="主要導覽" class="main-nav"><a class="selected" href="#collection">遊戲收藏</a><a href="#notes">遊玩筆記</a><a href="#challenge">遺跡冒險 <span>PLAY</span></a><span class="nav-end">✚ &nbsp; ● ●</span></nav>
+  <div class="system-strip"><span>個人收藏室 <b>/</b> 五個捨不得離開的世界</span><span>5 GAMES LOADED</span></div>
+  <main>
+    <section class="console" aria-label="精選遊戲世界">
+      <div class="screen-top"><span><i></i> 遊戲世界連線中</span><span id="screen-number">01 / 05</span></div>
+      <div class="hero" id="hero">
+        <img id="hero-image" src="assets/minecraft.jpg" alt="Minecraft 方塊世界" fetchpriority="high" width="1280" height="720">
+        <div class="hero-shade"></div><div class="hero-copy"><span id="hero-tag" class="hero-tag">給想慢慢蓋一個家的人</span><h1 id="hero-title">MINECRAFT</h1><p id="hero-line">再放一塊方塊，<br>今天就先不下線。</p><button class="action" id="hero-read">打開我的收藏筆記 <span>▶</span></button></div>
+        <div class="hero-bottom"><span id="hero-caption">自由建造 / 生存探險</span><div><button id="prev" aria-label="上一款遊戲">◀</button><button id="next" aria-label="下一款遊戲">▶</button></div></div>
+      </div>
+      <div class="console-base"><span class="speaker" aria-hidden="true"></span><span>好遊戲，總有回去的理由。</span><span class="speaker" aria-hidden="true"></span></div>
+    </section>
+    <section id="collection" class="collection"><div class="section-heading"><h2><span>▦</span> 我的收藏卡匣</h2><p>選一款，進入它的世界</p></div><div class="cartridges" id="cartridges"></div></section>
+    <section class="panel notes" id="notes" aria-labelledby="notes-heading"><div class="panel-bar"><h2 id="notes-heading">▤ 收藏筆記</h2><span id="note-type">自由建造</span></div><article id="game-detail"></article></section>
+    <section class="panel adventure" id="challenge" aria-labelledby="adventure-heading">
+      <div class="panel-bar"><h2 id="adventure-heading">✚ 微光遺跡</h2><span>2D 橫向卷軸冒險</span></div>
+      <div class="adventure-intro"><div><h3>往光的方向，再跳一次。</h3><p>穿過幽藍洞窟，躍過荊棘，尋找遺跡深處的光門。</p></div><span>雙段跳躍 · 空中衝刺 · 存檔燈</span></div>
+      <div id="platform-game"></div>
+    </section>
+    <section class="personal-note"><h2>收藏的是那些瞬間。</h2><p>一座自己蓋的小屋、一場終於打贏的戰鬥，或是走錯路才遇見的風景。這裡留給讓人想再按一次「繼續遊戲」的作品。</p></section>
+  </main>
+  <footer><a class="footer-brand" href="#">SAVE POINT</a><span>我的遊戲收藏 · 留一個位置給冒險</span><a href="#sources">素材與文字說明</a></footer>
+  <details id="sources" class="sources"><summary>關於內容與素材</summary><p>本頁為個人收藏網站示範。第一人稱心得是可修改的示範文案，可替換成收藏者的實際經驗。遊戲介紹參考各遊戲官方網站與 Steam 商店；每篇筆記附來源。遊戲名稱及圖片版權屬各原權利人，網站不代表官方。</p><p>圖片來源：<a href="https://www.minecraft.net/en-us/about-minecraft">Minecraft</a>、<a href="https://store.steampowered.com/app/3590/">Plants vs. Zombies</a>、<a href="https://store.steampowered.com/app/367520/">Hollow Knight</a>、<a href="https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-us/">Nintendo</a>、<a href="https://store.steampowered.com/app/292030/">The Witcher 3</a>。</p></details>
+</div>
+</body></html>
