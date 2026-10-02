@@ -1,5 +1,7 @@
 # Save Point · 我的遊戲收藏
 
+🔗 **線上展示 (GitHub Pages)**：https://tkvs-dp.github.io/Games/
+
 手機優先靜態網站。直接開啟 `index.html` 即可使用；也可以在本資料夾執行 `python -m http.server 5181`，瀏覽 http://localhost:5181。
 
 ### 提示詞
